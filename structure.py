@@ -9,7 +9,7 @@ app = typer.Typer(add_completion=False)
 
 # If you want to run a Griptape Structure, set this to True
 # otherwise, if you're just running regular Python code, set it to False
-use_structure = True
+use_structure = False
 
 
 @app.command()
